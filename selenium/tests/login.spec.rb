@@ -5,7 +5,6 @@ RSpec.describe 'Login' do
 
   before(:example) do
     $driver.get 'https://www.saucedemo.com/'
-    binding.pry
   end
 
   it 'Login com sucesso' do
